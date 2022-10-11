@@ -153,7 +153,7 @@ export default function Boxing() {
             
               <p className='text-2xl text-gray-800 font-medium my-3'>£5 <span className='text-sm font-normal text-gray-800'>/ session</span></p>
             <div className='flex flex-row'>
-            <Link href='#contactus' className='flex flex-col justify-center items-center shadow w-full rounded-md outline outline-2 outline-offset-0 outline-gray-800 hover:outline-gray-800 text-gray-800 hover:text-black h-10 font-medium text-sm'>
+            <Link to='#contactus' className='flex flex-col justify-center items-center shadow w-full rounded-md outline outline-2 outline-offset-0 outline-gray-800 hover:outline-gray-800 text-gray-800 hover:text-black h-10 font-medium text-sm'>
             <button >Contact Us</button>
             </Link>            
             </div>
@@ -174,7 +174,7 @@ export default function Boxing() {
             
               <p className='text-2xl text-gray-800 font-medium my-3'>£45 <span className='text-sm font-normal text-gray-800'>/ month</span></p>
             <div className='flex flex-row'>
-            <Link href='#contactus' className='flex flex-col justify-center items-center shadow w-full rounded-md outline outline-2 outline-offset-0 outline-gray-800 hover:outline-gray-800 text-gray-800 hover:text-black h-10 font-medium text-sm'>
+            <Link to='#contactus' className='flex flex-col justify-center items-center shadow w-full rounded-md outline outline-2 outline-offset-0 outline-gray-800 hover:outline-gray-800 text-gray-800 hover:text-black h-10 font-medium text-sm'>
             <button >Contact Us</button>
             </Link>
             </div>
