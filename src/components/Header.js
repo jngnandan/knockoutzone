@@ -40,12 +40,6 @@ export default function Header() {
           <Link to='/security-services' onClick={() => setNavbarOpen(!navbarOpen)}>
                 <p className='py-3 text-white hover:text-black w-full'>Security Services</p>
             </Link>
-            <Link to='/clearning-services' onClick={() => setNavbarOpen(!navbarOpen)}>
-                <p className='py-3 text-white hover:text-black w-full'>Cleaning Services</p>
-            </Link>
-            <Link to='/boxing' onClick={() => setNavbarOpen(!navbarOpen)}>
-                <p className='py-3 text-white hover:text-black w-full'>Boxing</p>
-            </Link>
             <Link to='/contactus' onClick={() => setNavbarOpen(!navbarOpen)}>
               <p className='py-3 text-white hover:text-black w-full'>Contact us</p>
             </Link>
