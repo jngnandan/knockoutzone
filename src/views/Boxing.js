@@ -24,6 +24,7 @@ import checker from '../../src/assets/icons/checker.svg'
 
 import whatsapp from '../../src/assets/icons/whatsapp.svg'
 import call from '../../src/assets/icons/call.svg'
+import knockoutzone from '../../src/assets/icons/knockoutzone.svg'
 
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -33,11 +34,11 @@ export default function Boxing() {
   return (
     <div>
       {/* Header */}
-      <div className='bg-black pt-10 pb-8 px-6 md:px-16 lg:px-44 xl:px-60 grid-row-2 items-start grid md:grid-cols-2 gap-1'>
+      <div className='bg-red-900 pt-10 pb-8 px-6 md:px-16 lg:px-44 xl:px-60 grid-row-2 items-start grid md:grid-cols-2 gap-1'>
         {/* Text */}
         <div className='pr-6'>
         <h1 className='text-xl md:text-3xl font-semibold text-white'>
-            Boxing Knockout Zone
+           Learnig Boxing with Knockout Zone
         </h1>
 
         <div className='pl-4'>
@@ -54,7 +55,7 @@ export default function Boxing() {
                 <a className='underline text-gray-300 pl-2' href="tel:02037422842">02037422842</a>
                 </div>
 
-        <p className='font-semibold text-white lg:w-120 pt-4 pb-2'>Oprning Hours</p>
+        <p className='font-semibold text-white lg:w-120 pt-4 pb-2'>Opening Hours</p>
         <div className='pl-3 pb-4'>
         <p  className='text-gray-300'><span className='font-semibold pr-2'>Mon - Fri :</span>18:00 - 20:00 </p>
         </div>
@@ -63,7 +64,7 @@ export default function Boxing() {
         </div>
         
         {/* Image */}
-        <img src={boxing} className='mb-6 h-auto w-full md:h-56 lg:h-80 rounded-md' alt='Security Needs' />
+        <img src={knockoutzone} className='mb-6 h-auto w-full md:h-56 lg:h-80 rounded-md' alt='Security Needs' />
       </div>
 
             {/* JOIN */}
