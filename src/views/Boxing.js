@@ -228,7 +228,7 @@ export default function Boxing() {
           
         <form className='grid grid-cols-2 gap-4' type='submit'>
             <label className='flex flex-col font-medium text-sm text-gray-400'>
-              First Name:
+              Name:
               <input className='mt-1 h-8 px-4 py-1 bg-transparent rounded outline outline-2 outline-offset-0 outline-gray-400 focus:outline-red-400' type="text" name="name" />
             </label>
             <label className='flex flex-col font-medium text-sm text-gray-400'>

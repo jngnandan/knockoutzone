@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import menu from '../assets/icons/menu.svg'
 import close from '../assets/icons/close.svg'
 
+import knockoutzone from '../../src/assets/icons/knockoutzone.svg'
 
 
 export default function Header() {
@@ -14,7 +15,7 @@ export default function Header() {
         <div className='shadow flex flex-row justify-between items-center h-16 px-6  lg:px-44 xl:px-60 font-medium text-sm'>
           <div className='' onClick={() => setNavbarOpen(true)}>
           <Link to='/'>
-            <h1 className='w-30'>Knockout Zone</h1>
+            <img src={knockoutzone} alt='logo' className='h-14'/>
           </Link>
           </div>
 
